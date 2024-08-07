@@ -308,9 +308,18 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libOmxCore \
+    android.hardware.media.c2@1.2.vendor \
+    libavservices_minijail \
+    libavservices_minijail.vendor \
+    libavservices_minijail_vendor \
     libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_soft_common.vendor \
     libcodec2_vndk.vendor \
+    libminijail \
+    libminijail.vendor \
+    libOmxCore \
+    libsfplugin_ccodec_utils.vendor \
     libstagefright_softomx.vendor \
     libstagefright_softomx_plugin.vendor \
     libstagefrighthw
